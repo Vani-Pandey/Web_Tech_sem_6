@@ -1,0 +1,101 @@
+body{
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;                                              /* navbar*/
+    background-color: white;
+}
+.fa-compass{                                      /* logoo*/
+    color: #fe424d;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info{                                         /*footer */                    
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: rgb(211, 207, 207);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+.f-info-links{                                             /*footer */
+    text-decoration: none !important;
+    color: #222222;
+}
+.f-info-socials i{                                          /*footer */
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.f-info-links,                                               /*footer */
+.f-info-socials,
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100%;
+    object-fit: cover !important;
+}
+.card-body{                               /*for card  */
+    padding: 0 !important;
+}
+
+.card-text p{                                         /*for card  */
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+.card-img-overlay{                                       /*for card  */
+    opacity: 0 !important;
+}
+
+.card-img-overlay:hover{                                  /*for card  */
+    opacity: 0.2 !important;
+    background-color: white !important;
+}
+
+.btn-style{                                                     /*btn add new listing  */
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.editbtn{
+    margin-bottom: 35px;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
