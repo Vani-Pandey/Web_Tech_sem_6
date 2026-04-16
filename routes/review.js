@@ -9,7 +9,6 @@ const { isLoggedIn, isReviewAuthor } = require("../middleware.js");
 const reviewController = require("../controller/reviews.js");
 
 
-
 const validateReview = (req ,res , next)=>{
     let {error} = reviewSchema.validate(req.body);
     if(error){
@@ -20,7 +19,7 @@ const validateReview = (req ,res , next)=>{
     }
 };
 
-//review
+
 //post route
 router.post("/" , isLoggedIn, validateReview, wrapAsync(reviewController.createReview)
 );

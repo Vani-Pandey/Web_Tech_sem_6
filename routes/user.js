@@ -7,7 +7,6 @@ const flash = require("connect-flash/lib/flash.js");
 const { saveRedirectUrl } = require("../middleware.js");
 const usercontroller = require("../controller/users.js");
 
-
 router
     .route("/signup")
     .get(usercontroller.renderSignupForm)

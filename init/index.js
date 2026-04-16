@@ -1,3 +1,4 @@
+// This file is responsible for initializing the database with sample data. It connects to the MongoDB database, clears any existing listings, and then inserts a predefined set of listings from the `data.js` file. Each listing is associated with a specific owner (user) by setting the `owner` field to a fixed user ID. This allows for testing and development with a consistent dataset.
 const mongoose = require("mongoose");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");

@@ -1,3 +1,4 @@
+// user model
 const { required } = require("joi");
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;

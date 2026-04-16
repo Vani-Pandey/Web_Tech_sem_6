@@ -1,3 +1,4 @@
+// listing model
 const mongoose = require("mongoose");
 const Review = require("./review.js");
 

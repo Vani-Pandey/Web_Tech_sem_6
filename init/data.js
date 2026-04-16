@@ -1,3 +1,4 @@
+// This file contains sample data for listings. Each listing has a title, description, image, price, location, and country. The image is represented as an object with a filename and a URL to the image. This data can be used to populate the database with initial listings for testing or development purposes.
 const sampleListings = [
     {
       title: "Cozy Beachfront Cottage",

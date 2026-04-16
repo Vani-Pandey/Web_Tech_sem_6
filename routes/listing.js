@@ -33,7 +33,7 @@ router
     wrapAsync(listingController.createListing));
 
 //add new route
-router.get("/new" , isLoggedIn , listingController.renderNewForm );             //form to add new listing 3
+router.get("/new" , isLoggedIn , listingController.renderNewForm );             //form to add new listing
 
 router
     .route("/:id")

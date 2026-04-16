@@ -1,3 +1,4 @@
+// custom error class for express
 class ExpressError extends Error{
     constructor(statusCode , message){
         super();

@@ -1,3 +1,4 @@
+// listing controller
 const Listing =  require("../models/listing");
 
 module.exports.index = async (req , res)=>{                       //to show main page 1
