@@ -1,8 +1,8 @@
-# 🏡 Airbnb Clone
+# 🚗 Car Rental Platform
 
-This is a full-stack Airbnb Clone web application built using Node.js, Express.js, MongoDB, and EJS.
+This is a full-stack Car Rental web application built using Node.js, Express.js, MongoDB, and EJS.
 
-Users can create, edit, view, and delete property listings. Images are uploaded using Cloudinary.
+Users can list their vehicles, browse available cars, book rides, and manage listings easily. Images are uploaded using Cloudinary for a smooth and scalable experience.
 
 ---
 
@@ -41,5 +41,4 @@ Users can create, edit, view, and delete property listings. Images are uploaded 
 
 ## 👩‍💻 Author
 
-Versha Nishad  
-B.Tech IT Student | Full Stack Developer
+Versha Nishad , Kashish , Vani Pandey , Chahat Yadav , Kajal Maurya , Navya Bansal . 
