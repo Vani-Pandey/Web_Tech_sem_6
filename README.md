@@ -41,9 +41,4 @@ Users can list their vehicles, browse available cars, book rides, and manage lis
 
 ## 👩‍💻 Authors
 
-Versha Nishad ,
-Kashish ,
-Vani Pandey , 
-Navya Bansal ,
-Kajal Maurya ,
-Chahat Yadav ,
+Versha Nishad , Kashish , Vani Pandey , Chahat Yadav , Kajal Maurya , Navya Bansal . 
