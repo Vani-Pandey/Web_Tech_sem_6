@@ -120,6 +120,9 @@ app.use("/listings" , listings);
 app.use("/listings/:id/reviews" , reviews);
 app.use("/" , user)
 
+app.get("/", (req, res) => {
+    res.render("home.ejs");
+});
 
 app.all("*" , (req , res, next)=>{                        //for all eror route
     next(new ExpressError(404 , "page not found!"));
