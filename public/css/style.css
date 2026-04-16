@@ -14,7 +14,7 @@ body{
     background-color: white;
 }
 .fa-compass{                                      /* logoo*/
-    color: #fe424d;
+    color: rgb(4, 4, 120);
     font-size: 2rem;
 }
 .nav-link{
@@ -55,6 +55,7 @@ body{
     border-radius: 1rem !important;
     width: 100%;
     object-fit: cover !important;
+    height: 42vh !important;
 }
 .card-body{                               /*for card  */
     padding: 0 !important;
@@ -78,7 +79,7 @@ body{
 }
 
 .btn-style{                                                     /*btn add new listing  */
-    background-color: #fe424d !important;
+    background-color: rgb(4, 4, 120) !important; 
     border: none !important;
 }
 

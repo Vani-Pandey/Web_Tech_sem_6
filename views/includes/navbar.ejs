@@ -1,12 +1,12 @@
 <style>
   .btn-search{
-    background-color: #fe424d;
+    background-color: rgb(4, 4, 120);;
     color: #fff;
     border-radius: 25px;
     padding: 0 1rem 0 1rem;
   }
   .btn-search:hover{
-    background-color: #fe424d;
+    background-color: rgb(3, 3, 77);;
     color: #fff;
   }
   .btn-search i{
@@ -16,6 +16,10 @@
   .search-inp{
     border-radius: 25px;
     padding: 0.5rem 3rem 0.5rem 3rem;
+  }
+  .navbar-nav{
+    display: flex;
+    align-items: center;
   }
 </style>
 
@@ -31,6 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link" href="/listings">Explore</a>
+          <a class="nav-link" href="/listings/new"><i class="fa-solid fa-car"></i>  List Your Car</a>
         </div>
 
         <div class="navbar-nav ms-auto" >
@@ -42,12 +47,15 @@
 
 
         <div class="navbar-nav ms-auto">
-          <a class="nav-link" href="/listings/new">Airbnb your home</a>
           <% if(!currUser){%>
             <a class="nav-link " href="/signup"><b>Sign Up</b></a>
             <a class="nav-link" href="/login"><b>Log in</b></a>
           <%}%>
           <% if(currUser){%>
+            <div class="nav-link d-flex align-items-center">
+            <i class="fa-solid fa-user"></i>
+            <a class="nav-link"><%=currUser.username%></a>
+            </div>
           <a class="nav-link" href="/logout"><n>Log out</n></a>
           <%}%>
         </div>
