@@ -34,7 +34,7 @@ Users can list their vehicles, browse available cars, book rides, and manage lis
 1. Clone the repository
 2. Run `npm install`
 3. Create a `.env` file and add your credentials
-4. Run `nodemon app.js`
+4. Run `nodemon app.js` 
 5. Open http://localhost:8080
 
 ---
