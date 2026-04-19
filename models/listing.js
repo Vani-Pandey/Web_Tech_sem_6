@@ -16,7 +16,6 @@ const listingSchema =  new Schema({
     image : {
        url : String,
        filename : String,
-       required : true
     },
     price :{
         type:Number,
