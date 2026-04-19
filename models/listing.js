@@ -1,6 +1,7 @@
 // listing model
 const mongoose = require("mongoose");
 const Review = require("./review.js");
+const { required } = require("joi");
 
 const Schema = mongoose.Schema
 
@@ -15,6 +16,7 @@ const listingSchema =  new Schema({
     image : {
        url : String,
        filename : String,
+       required : true
     },
     price :{
         type:Number,

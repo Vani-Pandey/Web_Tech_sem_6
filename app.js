@@ -116,6 +116,9 @@ app.use((req ,res , next)=>{                             //flash msg
 // })
 
 
+app.get("/", (req, res) => {
+    res.render("home.ejs");
+});
 
 app.use("/listings" , listings);
 app.use("/listings/:id/reviews" , reviews);
