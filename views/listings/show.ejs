@@ -9,11 +9,11 @@
         alt="Listing-image"
         />
         <div class="card-body">
-            <br>
         <p class="card-text"><%=listing.owner.username %></p>
         <p class="card-text"><%=listing.description %></p> 
-        <p class="card-text">₹ <%=listing.price%></p> 
-        <p class="card-text"><i class="fa-solid fa-location-dot"></i> <%= listing.location %> , <%=listing.country %></p>
+        <p class="card-text"><%=listing.price%></p> 
+        <p class="card-text"><%= listing.location %></p>
+        <p class="card-text"><%= listing.country %></p>
         </>
         </div>
     </div>
